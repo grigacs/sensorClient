@@ -1,0 +1,30 @@
+<ion-content padding>
+    <ion-list>
+      <ion-item>
+      <ion-thumbnail item-left>
+        <img src="img/accelerometer.png">
+      </ion-thumbnail>
+      <h2>Acceleration</h2>
+      <p>X, Y, Z axis</p>
+      <button [navPush]="accelerationPage" outline dark item-right>View</button>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="img/orientation.png">
+      </ion-thumbnail>
+      <h2>Orientation</h2>
+      <p>X, Y, Z axis</p>
+      <button [navPush]="orientationPage" outline dark item-right>View</button>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="img/gravity.png">
+      </ion-thumbnail>
+      <h2>Gravity</h2>
+      <p>X, Y, Z axis</p>
+      <button [navPush]="gravityPage" outline dark item-right>View</button>
+    </ion-item>
+  </ion-list>
+  <!--<ion-input type="text" [(ngModel)]="chatinp"></ion-input>
+  <button fab (devicemotion)="send()">Send</button> -->
+</ion-content>
